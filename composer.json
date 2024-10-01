@@ -1,0 +1,25 @@
+{
+    "name": "simcha22/image-package",
+    "description": "visual ui for uploading images",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "simcha fridman",
+            "email": "simcha.fridman2@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Simcha22\\ImagePackage\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Simcha22\\ImagePackage\\ImagePackageServiceProvider"
+            ]
+        }
+    }
+}
